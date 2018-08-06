@@ -1,3 +1,7 @@
+
+# Generated test executable
+test/mylib-test-libc/mylib_test
+
 # Prerequisites
 *.d
 
@@ -30,3 +34,4 @@
 *.exe
 *.out
 *.app
+
