@@ -67,5 +67,5 @@ To run project on device open _sput-ino-demo/sput-ino-demo.ino_ as normal Arduin
 
 To run project tests on device open _test/mylib-test-arduino/mylib-test-arduino.ino_
 
-To run project tests on desktop, build tests with _test/mylib-test-libc/build.sh_ srcipt and run _mylib_test_ generated executable.
+To run project tests on desktop, build tests with _test/mylib-test-libc/build.sh_ script and run _mylib_test_ generated executable.
 
