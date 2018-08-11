@@ -10,6 +10,7 @@ g++ -std=c++11 -c \
     Arduino.cpp \
     ../../src/mylib.cpp \
     ../mylib-test-arduino/mylib-test.cpp \
+    mylib-test-desktoponly.cpp \
     mylib-test-main.cpp
-g++ *.o -o mylib_test
+g++ *.o -o test_mylib
 

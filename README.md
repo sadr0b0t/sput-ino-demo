@@ -36,23 +36,23 @@ test/mylib-test-arduino/mylib-test-arduino.ino
 
 Run tests on desktop (libc)
 ~~~
-test/mylib-test-libc/
+test/mylib-test-desktop/
 ~~~
 
 Main
 ~~~
-test/mylib-test-libc/mylib-test-main.cpp
+test/mylib-test-desktop/mylib-test-main.cpp
 ~~~
 
 Arduino API stubs (feel free to edit and add more calls once required)
 ~~~
-test/mylib-test-libc/Arduino.h
-test/mylib-test-libc/Arduino.cpp
+test/mylib-test-desktop/Arduino.h
+test/mylib-test-desktop/Arduino.cpp
 ~~~
 
 minimalistic build script (should be better converted to favourite build tool config)
 ~~~
-test/mylib-test-libc/build.sh
+test/mylib-test-desktop/build.sh
 ~~~
 
 ## Workflow setup
@@ -67,5 +67,5 @@ To run project on device open _sput-ino-demo/sput-ino-demo.ino_ as normal Arduin
 
 To run project tests on device open _test/mylib-test-arduino/mylib-test-arduino.ino_
 
-To run project tests on desktop, build tests with _test/mylib-test-libc/build.sh_ script and run _mylib_test_ generated executable.
+To run project tests on desktop, build tests with _test/mylib-test-desktop/build.sh_ script and run _test_mylib_ generated executable.
 

@@ -1,6 +1,6 @@
 
 # Generated test executable
-test/mylib-test-libc/mylib_test
+test/mylib-test-desktop/test_mylib
 
 # Prerequisites
 *.d
